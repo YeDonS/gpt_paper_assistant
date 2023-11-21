@@ -1,22 +1,32 @@
- 1. New methodological improvements to RLHF or instruction-following which are specific fine-tuning steps that are taken to make language models better at following user instructions across a range of tasks.
-    - Relevant: papers that discuss specific methods like RLHF, or instruction-tuning datasets, improving these methods, or analyzing them. Usually these papers will explicitly mention RLHF, instruction-following or instruction-tuning.
-    - Not relevant: papers about adaptation to some task. Simply following instructions or inputs are not sufficient.
- 2. Shows new powerful test set contamination or membership inference methods for language models. Test set contamination is the phenomenon where a language model observes a benchmark dataset during pretraining.
-    - Relevant: test statistics that can detect contamination of benchmarks in language models. statistics that can provide guarantees are more interesting. membership inference methods that are general enough to apply to language models are also relevant.
-    - Not relevant: any papers that do not consider language models, or that do not consider test set contamination.
- 3. Shows a significant advance in the performance of diffusion language models.
-    - Relevant: papers that study language models that are also diffusion models. Continuous diffusions are even more relevant, while discrete diffusions are less so.
-    - Not relevant: papers about image diffusions like DALL-E or Stable Diffusion, or papers that do not explicitly mention language models or applications to text.
- 4. Describes new paradigms to evaluating open-ended text generation. Evaluating the outputs of language models is hard, especially in open-ended settings like for chatbots.
-    - Relevant: papers that fundamentally rethink language model evaluation -- especially by accounting for subjectivity or using adversaries.
-    - Not relevant: specific evaluations for specific tasks, identifying new properties or flaws of language models, or simply collecting new data.
- 5. Conducts surveys or provides data into real-world usage and safety properties of language models.
-    - Relevant: papers that create new datasets or surveys on real-world usage of language models.
-    - Not relevant: papers that apply language models to new real-world tasks.
- 6. Studies 'scaling laws' in the context of neural networks. Scaling laws refer to the very clear power-law relationship between the size or computational power used to train a model and the performance of that model.
-    - Relevant: theoretical or conceptual explanation behind scaling laws for language models.
-    - Not relevant: papers that have experiments at different model scales (but do not explicitly fit a scaling law) or papers that mention scaling laws, but the scaling laws are not the central subject of the paper
+ 1. Generative AI Technologies in Market Research.
+    - Relevant: Studies or articles that explore emerging trends, applications, and market potentials of generative AI technologies. Papers that offer insights into consumer demands, industry shifts, or technological advancements in this field.
+    - Not Relevant: General AI or tech industry trends that do not specifically address generative AI technologies.
+ 2. HCI Methods in Evaluating Generative AI Solutions.
+    - Relevant: Research that applies Human-Computer Interaction methodologies to analyze and evaluate generative AI solutions, discussing user experience, interface design, or user interaction with generative AI systems.
+    - Not relevant: HCI studies focusing on non-AI technologies or AI studies that do not incorporate HCI methods for evaluation.
+ 3. Synthesized Analysis of New Generative AI Technologies.
+    - Relevant: Comprehensive reviews or meta-analyses that synthesize findings from multiple studies on new generative AI technologies, offering a consolidated view of their market and research value.
+    - Not relevant: Single case studies or research focusing on established, rather than emerging, AI technologies.
+ 4. Interpreting Industry Solutions through Scholarly Literature.
+    - Relevant: Papers that critique or interpret current industry solutions in generative AI by referencing academic theories, scholarly debates, or historical perspectives.
+    - Not relevant: Industry reports or articles that lack academic depth or scholarly analysis.
+ 5. Trends and Innovations in Generative AI.
+    - Relevant: Articles or studies highlighting the latest trends, innovations, and breakthroughs in generative AI, including novel applications, technology advancements, or market predictions.
+    - Not relevant: General technology trends or innovations that do not specifically focus on generative AI.
+ 6. Impact of Generative AI on Industries
+    - Relevant: Research or analysis papers discussing how generative AI is transforming specific industries (e.g., healthcare, entertainment, automotive), focusing on practical applications, challenges, and future prospects.
+    - Not relevant: Papers focusing on the broader impact of AI without a specific emphasis on generative aspects.
+ 7. User Experience and Interface Design in Generative AI Systems.
+    - Relevant: Studies that explore user experience (UX) and interface design in the context of generative AI, addressing usability, user satisfaction, or interaction design.
+    - Not relevant: General UX/UI design studies that do not specifically relate to generative AI systems.
+ 8. Case Studies of Generative AI Applications.
+    - Relevant: Detailed case studies of generative AI applications in real-world scenarios, providing insights into their development, implementation, and impact.
+    - Not relevant: Hypothetical or speculative articles that do not provide concrete case study analysis.
+ 9. Cutting-edge Technologies in Generative AI.
+    - Relevant: Seek out research that highlights breakthrough technologies in generative AI, detailing advancements in algorithms, frameworks, or models that push the boundaries of current capabilities.
+    - Not relevant: Exclude papers that focus solely on incremental improvements of existing technologies.
+ 10. Novel Methodologies in Generative AI
+    - Relevant: Recommend papers that propose novel methodologies or approaches in generative AI, including unique data processing techniques, innovative model training strategies, or new theoretical insights.
+    - Not relevant: Refrain from suggesting papers that concentrate on general methodologies or traditional approaches in AI.
 
- In suggesting papers to your friend, remember that he enjoys papers on statistical machine learning, and generative modeling in natural language processing.
- Your friend also likes learning about surprising empirical results in language models, as well as clever statistical tricks.
- He does not want to read papers that are about primarily applications of methods to specific domains.
+
