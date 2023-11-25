@@ -180,7 +180,7 @@ if __name__ == "__main__":
 
     S2_API_KEY = os.environ.get("S2_KEY")
     # OAI_KEY = os.environ.get("OAI_KEY")
-    OAI_KEY="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"
+    OAI_KEY="sk-TE0yCbeNAb1E1XB2mPP1UFaSkVDxM5zITC6NRB2Y2Fw9hlUV"
     if OAI_KEY is None:
         raise ValueError(
             "OpenAI key is not set - please set OAI_KEY to your OpenAI key"
