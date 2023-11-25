@@ -53,7 +53,7 @@ def get_paper_batch(
 
     # https://api.semanticscholar.org/api-docs/graph#tag/Paper-Data/operation/post_graph_get_papers
     with session.post(
-        "https://api.semanticscholar.org/graph/v1/paper/batch",
+        "https://api.openai-proxy.org/v1/paper/batch",
         params=params,
         headers=headers,
         json=body,
@@ -85,7 +85,7 @@ def get_author_batch(
     }
 
     with session.post(
-        "https://api.semanticscholar.org/graph/v1/author/batch",
+        "https://api.openai-proxy.org/v1/author/batch",
         params=params,
         headers=headers,
         json=body,
@@ -104,7 +104,7 @@ def get_one_author(session, author: str, S2_API_KEY: str) -> str:
             "X-API-KEY": S2_API_KEY,
         }
     with session.get(
-        "https://api.semanticscholar.org/graph/v1/author/search",
+        "https://api.openai-proxy.org/v1/author/search",
         params=params,
         headers=headers,
     ) as response:
